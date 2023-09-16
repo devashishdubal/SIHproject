@@ -1,0 +1,174 @@
+body{
+
+    background-image: url('fitImage.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+
+
+
+    
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.zoom-in {
+    animation: zoomIn 5s;
+    transform-origin: right;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    font-size: medium;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+
+    color: black;
+    float: left;
+    width: 80%;
+
+    box-sizing: border-box;
+}
+#main-header:hover{
+    background-color: none;
+}
+
+#navbar{
+    float:right;
+    color: white;
+
+    width: 20%;
+    height: 69px;
+    box-sizing: border-box;
+}
+#navbar:hover, navbar2:hover{
+    background-color: none;
+}
+#navbar ul{
+    padding:8px;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#navbar a{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+#navbar a:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+}
+#navbar2{
+    float:left;
+    color: white;
+
+    
+    height: 68px;
+    box-sizing: border-box;
+}
+#navbar2 ul{
+    
+    margin-left: 10%;
+    padding:0px;
+    list-style: none;
+}
+#navbar2 li{
+    border-width: 20px;
+    border-color: black;
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#navbar2 a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+
+#navbar2 a:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    color: coral;
+}
+.maintext{
+    margin-left: 40px;
+    
+}
+
+.block1{
+    margin-right: 120px;
+    background-color: white;
+    color: black;
+    float: left;
+    width: 35%;
+    margin-left:6%;
+    margin-top:3%;
+    border: 12px solid beige;
+    border-radius: 10px;
+    padding: 35px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.block2{
+    margin-left: 120px;
+    background-color: white;
+    color: black;
+    float: right;
+    width: 35%;
+    margin-right:6%;
+    margin-top:3%;
+    border: 12px solid beige;
+    border-radius: 10px;
+    padding: 35px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+#bottom-motto{
+    color: white;
+    width: 30%;
+}
